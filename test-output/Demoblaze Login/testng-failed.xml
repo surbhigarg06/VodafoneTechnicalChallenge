@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Demoblaze Login]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="test.java.Listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="10" verbose="2" name="Login(failed)">
+    <classes>
+      <class name="test.java.TestCases.ChooseBattleField">
+        <methods>
+          <include name="ChooseBattleField" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.java.TestCases.ChooseBattleField -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Demoblaze Login] -->

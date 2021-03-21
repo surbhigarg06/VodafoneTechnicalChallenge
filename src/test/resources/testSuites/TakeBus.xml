@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demoblaze Login"   thread-count="10" verbose="2">
+
+	<listeners>
+	 <listener class-name="org.uncommons.reportng.HTMLReporter" />
+	 <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> 
+	 <listener class-name="test.java.Listeners.CustomListeners"/>
+	</listeners>
+  <test name="Login"> 
+<classes>
+  <class name="test.java.TestCases.StartGame" />
+   <class name="test.java.TestCases.ChooseBattleField" />
+  <!--  <class name="test.java.TestCases.InsideTheBus" />--> 
+  </classes>
+  </test>   
+  	</suite>

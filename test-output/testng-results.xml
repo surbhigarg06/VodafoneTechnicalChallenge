@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28150" started-at="2021-03-21T01:03:46Z" finished-at="2021-03-21T01:04:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28150" started-at="2021-03-21T01:03:46Z" finished-at="2021-03-21T01:04:14Z">
+      <class name="test.java.TestCases.StartGame">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.StartGame@3d5c822d]" name="setUp" is-config="true" duration-ms="4408" started-at="2021-03-21T01:03:41Z" finished-at="2021-03-21T01:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:test.java.TestCases.StartGame@3d5c822d]" name="login" duration-ms="28130" started-at="2021-03-21T01:03:46Z" data-provider="Login" finished-at="2021-03-21T01:04:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[surbhi garg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.TestCases.StartGame@3d5c822d]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-21T01:04:19Z" finished-at="2021-03-21T01:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.TestCases.StartGame -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
